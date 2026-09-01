@@ -8,6 +8,7 @@ Phần cứng bao gồm:
 + 1 LCD 16x2 (I2C)
 + 1 băng tải
 + 1 Camera USB kết nối với máy tính
++ ESP32 Dev Kit
 
 Hardware includes:
 + 2 RC Servo SG960
@@ -16,6 +17,7 @@ Hardware includes:
 + 1 LCD 16x2 (I2C)
 + 1 conveyor belt
 + 1 USB camera connected to a computer
++ ESP32 Dev Kit
 
 Sử dụng OpenCV để nhận dạng màu sắc và gửi kết quả xuống ESP32 thông qua UART. Sau khi nhận được dữ liệu màu sắc của vật phẩm đồng thời kết hợp với khối lượng để phân loại sản phẩm. Sản phẩm được đẩy ra băng tải và được tự động phân loại, đếm số lượng bằng RC Servo, cảm biến hồng ngoại.
 - Gồm 3 file
